@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body
+{
+    background-color: #f7ecde;
+}
+.headText {
+    color: #AAA;
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    font-size: 25px;
+}
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+.dataInput{
+	width:800px;
+	background-color: #f7ecde;
+	margin: 1.5px;
+	padding:30px;
+	
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
+
+.webwell {
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bookmark</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header>
+            <div class="headText text-muted"><h3 class="">Bookmarker</h3></div>
+                <div class="container d-flex justify-content-around align-items-center flex-column">
+                    <div class="fristContainer ">
+                        <div class=" card dataInput p-2">
+                            <h3 class="p-2">Bookmark your favorite sites </h3>
+                            <div class="form-group text-center">
+                            <label for="siteName">Site Name</label>
+                            <input type="text" class="form-control " id="siteName"  placeholder="Bookmark Name">
+                            </div>
+                            <div class="form-group text-center">
+                            <label for="siteUrl">Site URL</label>
+                            <input type="text" class="form-control" id="siteUrl" placeholder="website URL">
+                            </div>
+                            <div class="text-center p-4">
+                            <button id="submit" onclick="addNew()" type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div > 
+                        <div class="dataInput"><div id="bookmarkList" class="d-flex flex-column"></div></div>
+            </div>
+	<script src="js/main.js"></script>
+</body>
+</html>
